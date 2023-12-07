@@ -11,16 +11,20 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 1. ref <https://getbootstrap.com/>
 2. run `npm i bootstrap@5.3.2`
 3. update angular.json `styles: "../bootstrap/dist/css/bootstrap.rtl.min.css"`
-4. add to styles.css `@import "~bootstrap/dist/css/bootstrap.css"`
+4. DO NOT! add to styles.css `@import "~bootstrap/dist/css/bootstrap.css"`
 5. Test for bootstrap
 
 ```typescript
 <div class="container">
-  <div class="row">
-    <div class="col-md-12">
-      <app-re
+<div class="row justify-content-center">
+    <div class="col-4">
+      One of two columns
+    </div>
+    <div class="col-4">
+      One of two columns
     </div>
   </div>
+</div>
 </div>
 ```
 
