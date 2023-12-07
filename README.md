@@ -4,6 +4,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Project Inroduction
 
+1. if you want modules `ng new --no-standalone`
+
 ### Task add bootstrap
 
 1. ref <https://getbootstrap.com/>
@@ -20,3 +22,5 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
   </div>
 </div>
 ```
+
+### Task Add header.component
