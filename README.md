@@ -24,3 +24,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ```
 
 ### Task Add header.component
+
+### Task add components: recipes, recipe-list, recipe-details, recipe-item, shopping-list, shopping-edit
+
+1. `ng g c recipes`
