@@ -3,11 +3,13 @@ import { CommonModule } from '@angular/common';
 import { RouterOutlet } from '@angular/router';
 import { bootstrapApplication } from '@angular/platform-browser';
 import { HeaderComponent } from './header/header.component';
+import { RecipesComponent } from './recipes/recipes.component';
+import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet,HeaderComponent],
+  imports: [CommonModule, RouterOutlet,HeaderComponent, RecipesComponent, ShoppingListComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
