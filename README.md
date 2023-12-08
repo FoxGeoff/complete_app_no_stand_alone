@@ -13,10 +13,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 3. DO NOT! update angular.json `styles: "../bootstrap/dist/css/bootstrap.rtl.min.css"`
 4. DO NOT! add to styles.css `@import "~bootstrap/dist/css/bootstrap.css"`
 5. Test for bootstrap
-6. Run `ng add @ng-bootstrap/ng-bootstrap` TBD
+6. OR run `ng add @ng-bootstrap/ng-bootstrap`
 
-
-```typescript
+```html
 <div class="container">
 <div class="row justify-content-center">
     <div class="col-4">
