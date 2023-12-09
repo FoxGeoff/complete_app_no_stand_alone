@@ -38,3 +38,5 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ### Task Adding a Navigation Bar
 
 1. ref <https://learning.oreilly.com/videos/angular-the/9781788998437/9781788998437-video3_6/>
+
+### Task Creating a "Recipe" Model
