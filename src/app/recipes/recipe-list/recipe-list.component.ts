@@ -11,6 +11,6 @@ import { Recipe } from '../recipe.model';
 })
 export class RecipeListComponent {
   recipes: Recipe[] = [
-    new Recipe(`A test recipe`, `This is a test`)
+    //new Recipe(`A test recipe`, `This is a test`)
   ];
 }
